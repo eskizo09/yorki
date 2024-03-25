@@ -1,0 +1,112 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif; /* Example font */
+    background-color:#E8E2D5
+}
+
+.background-image {
+    /* Replace 'your-image.jpg' with the path to your actual image */
+    background-image: url('YORKI.png');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.scroll-message {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 88, 88, 0.932);
+    padding: 10px;
+    border-radius: 25px;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateX(-50%) translateY(0);
+    }
+    40% {
+        transform: translateX(-50%) translateY(-20px);
+    }
+    60% {
+        transform: translateX(-50%) translateY(-10px);
+    }
+}
+
+.content {
+    color: #333;
+    text-align: center; /* Center the text */
+    padding: 20px;
+}
+
+.round-button {
+    background-color: #f2ff38; /* Blue */
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px; /* Rounded borders */
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.952); /* Add shadow for depth */
+    
+}
+
+.centered-image img {
+    display: block;
+    margin: 0 auto; /* Center the image */
+    max-width: 10%; /* Make it responsive */
+    border-radius: 50%;
+    height: auto;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.952); /* Add shadow for depth */
+}
+.roadmap {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card {
+    background-color: #ffe2cf; /* Light grey background */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    border-radius: 20px; /* Rounded corners */
+    padding: 20px;
+    width: 30%; /* Adjust based on your preference */
+    transition: transform 0.2s; /* Smooth transition for scaling */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly scale up on hover */
+}
+
+.card h2 {
+    color: #333; /* Dark text color for the title */
+}
+
+.card p {
+    color: #666; /* Lighter text color for the description */
+}
+.button {
+    background-color: #ffe2cf; /* Blue */
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px; /* Rounded borders */
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.952); /* Add shadow for depth */
+    
+
+}
