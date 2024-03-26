@@ -110,3 +110,6 @@ body, html {
     
 
 }
+@media (max-width: 600px) {
+    /* Responsive adjustments */
+}
